@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   BAS: [ESCAPE, Q, W, F, P, G, J, L, U, Y, ;, RIGHT ALT, ↹, A, R, S, T, D, M, N, E, I, O, '''', LEFT SHIFT, Z, X, C, V, B, K, H, ',', ., /, DELETE, LEFT CONTROL,
-    ␣, LOW, RAI, ENTER, DELETE]
+    ␣, LOW, RAI, ENTER, BACKSPACE]
   LOW:
   - ESCAPE
   - '1'
@@ -38,13 +38,13 @@ layers:
   - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - LEFT CONTROL
   - ␣
   - {type: held}
   - {t: ▽, type: trans}
   - ENTER
-  - DELETE
+  - BACKSPACE
   RAI:
   - ESCAPE
   - F1
@@ -81,10 +81,10 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - LEFT CONTROL
   - ␣
   - {t: ▽, type: trans}
   - {type: held}
   - ENTER
-  - DELETE
+  - BACKSPACE

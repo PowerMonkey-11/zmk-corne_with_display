@@ -23,7 +23,7 @@ layers:
   - '-'
   - +
   - LEFT ARROW
-  - ↑
+  - ↓
   - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

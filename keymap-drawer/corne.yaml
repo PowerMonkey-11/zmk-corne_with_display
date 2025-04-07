@@ -11,7 +11,7 @@ layers:
   - '%'
   - '='
   - Home
-  - UP ARROW
+  - ↑
   - End
   - {t: ▽, type: trans}
   - RIGHT ALT
@@ -22,7 +22,7 @@ layers:
   - '6'
   - '-'
   - +
-  - LEFT ARROW
+  - ←
   - ↓
   - →
   - {t: ▽, type: trans}
@@ -65,7 +65,7 @@ layers:
   - (
   - )
   - $
-  - AMPERSAND
+  - AMPS
   - '|'
   - ^
   - {t: ▽, type: trans}

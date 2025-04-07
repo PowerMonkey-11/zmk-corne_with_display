@@ -1,15 +1,15 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   BAS: [ESCAPE, Q, W, F, P, G, J, L, U, Y, ;, RIGHT ALT, ↹, A, R, S, T, D, H, N, E, I, O, '''', LEFT SHIFT, Z, X, C, V, B, K, M, ',', ., /, DELETE, LEFT CONTROL,
     ␣, LOW, RAI, ENTER, BACKSPACE]
   LOW:
   - ESCAPE
-  - '1'
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - '%'
-  - KP EQUAL
+  - '='
   - Home
   - UP ARROW
   - End
@@ -32,11 +32,11 @@ layers:
   - '7'
   - '8'
   - '9'
-  - KP SLASH
-  - KP ASTERISK
+  - /
+  - '*'
   - \
   - '@'
-  - {t: ▽, type: trans}
+  - _
   - {t: ▽, type: trans}
   - DELETE
   - LEFT CONTROL
@@ -53,10 +53,10 @@ layers:
   - '{'
   - '}'
   - '!'
-  - AMPS
-  - '|'
   - F10
   - F11
+  - F12
+  - {t: ▽, type: trans}
   - F12
   - ↹
   - F4
@@ -65,8 +65,8 @@ layers:
   - (
   - )
   - $
-  - _
-  - '~'
+  - AMPERSAND
+  - '|'
   - ^
   - {t: ▽, type: trans}
   - PRINTSCREEN
